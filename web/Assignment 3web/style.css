@@ -1,0 +1,30 @@
+*{
+       box-sizing: border-box;
+
+}
+body{
+    display:flex;
+    width: 90vw;
+    height: 90vh;
+    
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+button{
+    height: 10vh;
+    width: 10vw;
+    color: rgb(231, 164, 229);
+    background: none;
+  
+    font: 1.2rem fantansy;
+    font-style:oblique;
+    
+}
+button:hover{
+    color: rgb(41, 189, 209);
+    border: 0.3rem solid silver;
+    box-shadow: 1px 9px 9px -4px gold;
+    transition: ease-in-out .5s;
+    transform:translateY(-8px);
+}

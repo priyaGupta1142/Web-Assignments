@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h3{
+    color: rgb(30, 184, 148);
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+}
+nav{
+    background-color: #ffb703;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navb ul li a:hover{
+    text-decoration: wavy;
+    color: firebrick;
+}
+.navbar{
+   font: 800 3rem fantasy;
+  
+   color: white;
+   margin-left: 6vw;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: 2px space-between;
+    width: 500px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    padding: 30px 10px;
+}
+li{
+    padding: 30px 10px;
+}
+
+.carousel{
+    overflow: hidden;
+    width: 80vw;
+    margin: 1px auto;
+    box-shadow: 3px 4px 4px gray;
+}
+.carousel figure{
+   width: 500%;
+    position: relative;
+    height: 80vh;
+    animation: 40s carousel infinite;
+}
+.carousel figure img{
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+
+section{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70vw;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+figure{
+    width: 300px;
+    border: 2px solid #ccc;
+    margin: 7.8px;
+    text-align: center;
+    box-shadow: 0px 0px 3px black;
+    transition: 50ms;
+}
+figure img{
+    height: 350px;
+    width: 100%;
+}
+figure:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+figcaption p{
+    font-weight: 200;
+}
+
+#contact{
+    text-align: center;
+    color: rgb(27, 31, 24);
+    font-size: 4em;
+}
+.form{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70vw;
+  margin: 20px auto;
+  box-shadow: 0 0 10px rgb(57, 26, 107);
+  border-radius: 1em;
+}
+
+.abc{
+    display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 62vh;
+  background-color: orange;
+  border-top-left-radius: 0.8em;
+  border-bottom-left-radius: 0.8em;
+  color: white;
+  font: 1.5em cursive;
+}
+h1{
+    color: white;
+    font-size: 6rem;
+}
+
+form{
+    margin: 3rem;
+    width: 50%;
+    height: 90%;
+
+}
+
+form input,textarea{
+padding: 1em;
+border: 1px solid darkgoldenrod;
+margin: 1em;
+}
+textarea{
+    width: 80%;
+}
+
+button {
+    width: 80%;
+    cursor: pointer;
+    color: white;
+    background-color: orange;
+    padding: 1em;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    border: none;
+    border-radius: 2em;
+  }
+
+@keyframes carousel{
+    0% {
+        left: 0%;
+      }
+      20% {
+        left: 0%;
+      }
+      25% {
+        left: -100%;
+      }
+      45% {
+        left: -100%;
+      }
+      50% {
+        left: -200%;
+      }
+      
+}

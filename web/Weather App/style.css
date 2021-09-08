@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@500&display=swap');
+body {
+    background-image: url("https://images.unsplash.com/photo-1580429361231-bd93065f3b2a?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDYwfGJvOGpRS1RhRTBZfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 100px;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+    background-color: silver;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.input {
+    margin: 10px 25px 25px 25px;
+}
+
+input[type="text"] {
+    width: 190px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 25px;
+    outline: none;
+    font-family: fantasy;
+    text-align: center;
+    background-color: black;
+    color: pink;
+}
+
+p {
+    padding: 5px;
+    font-family: cursive;
+    color: rgb(149, 11, 184);
+}
+
+.a1 {
+    color: #f70052;
+    font-family: cursive;
+}
+
+.btn {
+    width: 200px;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 25px;
+    border-radius: 10px;
+    font-family: fantasy;
+    background-color: black;
+    color: yellow;
+}
+
+.output {
+    display: none;
+    background-color: black;
+    border-radius: 10px;
+}
